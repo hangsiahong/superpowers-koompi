@@ -1,7 +1,6 @@
-.worktrees/
-.private-journal/
-.claude/
+.lancedb/
+*.bak
 .DS_Store
 node_modules/
-inspo
-triage/
+venv/
+__pycache__/
