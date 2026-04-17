@@ -193,7 +193,9 @@ You MUST complete each phase before proceeding to the next.
    - STOP
    - Count: How many fixes have you tried?
    - If < 3: Return to Phase 1, re-analyze with new information
+   - **If < 3**: Also consider using `self-critic` to review why your fix failed.
    - **If ≥ 3: STOP and question the architecture (step 5 below)**
+   - **CRITICAL**: Use `session-distiller` to document the 3 failed attempts, write it to a memory using `memory-maker`, and optionally spawn a pure `explorer` agent to find a new approach.
    - DON'T attempt Fix #4 without architectural discussion
 
 5. **If 3+ Fixes Failed: Question Architecture**
