@@ -135,7 +135,8 @@ You: I'm using Subagent-Driven Development to execute this plan.
 Task 1: Hook installation script
 
 [Get Task 1 text and context (already extracted)]
-[Dispatch implementation subagent with full task text + context]
+[Run session-distiller to generate Checkpoint]
+[Dispatch implementation subagent with Checkpoint]
 
 Implementer: "Before I begin - should the hook be installed at user or system level?"
 
@@ -159,7 +160,8 @@ Code reviewer: Strengths: Good test coverage, clean. Issues: None. Approved.
 Task 2: Recovery modes
 
 [Get Task 2 text and context (already extracted)]
-[Dispatch implementation subagent with full task text + context]
+[Run session-distiller to generate Checkpoint]
+[Dispatch implementation subagent with Checkpoint]
 
 Implementer: [No questions, proceeds]
 Implementer:
